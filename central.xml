@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Utilidades.CentralDeInformacoes>
+  <usuariosCadastrados>
+    <Utilidades.Usuario>
+      <nome>maycon</nome>
+      <sobrenome>oliveira</sobrenome>
+      <sexo>M</sexo>
+      <dataDeNascimento>1999-09-18 03:00:00.0 UTC</dataDeNascimento>
+      <endereço>oaksdokosakd</endereço>
+      <telefone>33 3333-3333</telefone>
+      <CPF>444.444.444-44</CPF>
+      <email>maycon@gmail.com</email>
+      <senha>poha1234</senha>
+      <leiloesCadastrados>
+        <Utilidades.Leilao>
+          <dono>maycon@gmail.com</dono>
+          <nomeDoProduto>teste compra por expiracao</nomeDoProduto>
+          <descricao>testando compra por expiracao do prazo do leilao</descricao>
+          <preco>30.0</preco>
+          <lanceMinimo>300.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-07 20:16:40.842 UTC</dataDeCadastro>
+          <lancesRecebidos>
+            <double>300.0</double>
+          </lancesRecebidos>
+          <DonosDosLances>
+            <string>cael@gmail.com</string>
+          </DonosDosLances>
+          <ganhador>cael@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao>
+          <dono>maycon@gmail.com</dono>
+          <nomeDoProduto>testando lance</nomeDoProduto>
+          <descricao>testando o lance que compra o produto imediatamente</descricao>
+          <preco>500.0</preco>
+          <lanceMinimo>300.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-07 20:34:10.338 UTC</dataDeCadastro>
+          <lancesRecebidos>
+            <double>300.0</double>
+          </lancesRecebidos>
+          <DonosDosLances>
+            <string>cael@gmail.com</string>
+          </DonosDosLances>
+          <ganhador>cael@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao>
+          <dono>maycon@gmail.com</dono>
+          <nomeDoProduto>ae carai</nomeDoProduto>
+          <descricao>kodka</descricao>
+          <preco>500.0</preco>
+          <lanceMinimo>300.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-11 20:29:44.522 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <ganhador>cael@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao>
+          <dono>maycon@gmail.com</dono>
+          <nomeDoProduto>segund</nomeDoProduto>
+          <descricao>askod</descricao>
+          <preco>20.0</preco>
+          <lanceMinimo>10.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>3</horas>
+          <dataDeCadastro>2018-06-11 20:29:58.422 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <ganhador>cael@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao>
+          <dono>maycon@gmail.com</dono>
+          <nomeDoProduto>terceiro</nomeDoProduto>
+          <descricao>alsdl</descricao>
+          <preco>30.0</preco>
+          <lanceMinimo>20.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>5</horas>
+          <dataDeCadastro>2018-06-11 20:33:39.894 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <ganhador>cael@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+      </leiloesCadastrados>
+      <leiloesGanhos>
+        <Utilidades.Leilao>
+          <dono>cael@gmail.com</dono>
+          <nomeDoProduto>oskfok</nomeDoProduto>
+          <descricao>okfos</descricao>
+          <preco>40.0</preco>
+          <lanceMinimo>30.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-11 20:09:28.351 UTC</dataDeCadastro>
+          <lancesRecebidos>
+            <double>30.0</double>
+          </lancesRecebidos>
+          <DonosDosLances>
+            <string>maycon@gmail.com</string>
+          </DonosDosLances>
+          <ganhador>maycon@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao>
+          <dono>cael@gmail.com</dono>
+          <nomeDoProduto>quarto</nomeDoProduto>
+          <descricao>dokd</descricao>
+          <preco>400.0</preco>
+          <lanceMinimo>200.0</lanceMinimo>
+          <dias>1</dias>
+          <horas>0</horas>
+          <dataDeCadastro>2018-06-11 20:34:48.642 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <ganhador>maycon@gmail.com</ganhador>
+          <comprado>true</comprado>
+        </Utilidades.Leilao>
+      </leiloesGanhos>
+      <leiloesVendidos>
+        <Utilidades.Leilao reference="../../leiloesCadastrados/Utilidades.Leilao[2]"/>
+        <Utilidades.Leilao reference="../../leiloesCadastrados/Utilidades.Leilao"/>
+        <Utilidades.Leilao reference="../../leiloesCadastrados/Utilidades.Leilao[3]"/>
+        <Utilidades.Leilao reference="../../leiloesCadastrados/Utilidades.Leilao[4]"/>
+        <Utilidades.Leilao reference="../../leiloesCadastrados/Utilidades.Leilao[5]"/>
+      </leiloesVendidos>
+    </Utilidades.Usuario>
+    <Utilidades.Usuario>
+      <nome>mycaell</nome>
+      <sobrenome>carneiro</sobrenome>
+      <sexo>M</sexo>
+      <dataDeNascimento>1999-09-18 03:00:00.0 UTC</dataDeNascimento>
+      <endereço>oakdoskaodo</endereço>
+      <telefone>66 6666-6666</telefone>
+      <CPF>666.666.666-66</CPF>
+      <email>cael@gmail.com</email>
+      <senha>cael1234</senha>
+      <leiloesCadastrados>
+        <Utilidades.Leilao>
+          <dono>cael@gmail.com</dono>
+          <nomeDoProduto>kosakdo</nomeDoProduto>
+          <descricao>okdosk</descricao>
+          <preco>330.0</preco>
+          <lanceMinimo>20.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-11 07:27:36.471 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <comprado>false</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao>
+          <dono>cael@gmail.com</dono>
+          <nomeDoProduto>kkkkkkk</nomeDoProduto>
+          <descricao>kkkkkkkkkk</descricao>
+          <preco>400.0</preco>
+          <lanceMinimo>200.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-11 15:15:03.602 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <comprado>false</comprado>
+        </Utilidades.Leilao>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesGanhos/Utilidades.Leilao"/>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesGanhos/Utilidades.Leilao[2]"/>
+        <Utilidades.Leilao>
+          <dono>cael@gmail.com</dono>
+          <nomeDoProduto>kkk</nomeDoProduto>
+          <descricao>kkkk</descricao>
+          <preco>400.0</preco>
+          <lanceMinimo>200.0</lanceMinimo>
+          <dias>0</dias>
+          <horas>1</horas>
+          <dataDeCadastro>2018-06-13 04:59:00.335 UTC</dataDeCadastro>
+          <lancesRecebidos/>
+          <DonosDosLances/>
+          <comprado>false</comprado>
+        </Utilidades.Leilao>
+      </leiloesCadastrados>
+      <leiloesGanhos>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesCadastrados/Utilidades.Leilao"/>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesCadastrados/Utilidades.Leilao[3]"/>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesCadastrados/Utilidades.Leilao[4]"/>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesCadastrados/Utilidades.Leilao[5]"/>
+      </leiloesGanhos>
+      <leiloesVendidos>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesGanhos/Utilidades.Leilao"/>
+        <Utilidades.Leilao reference="../../../Utilidades.Usuario/leiloesGanhos/Utilidades.Leilao[2]"/>
+      </leiloesVendidos>
+    </Utilidades.Usuario>
+    <Utilidades.Usuario>
+      <nome>relloc</nome>
+      <sobrenome>cooler</sobrenome>
+      <sexo>M</sexo>
+      <dataDeNascimento>1999-02-20 02:00:00.0 UTC</dataDeNascimento>
+      <endereço>kkkkkkkkkk</endereço>
+      <telefone>99 9999-9999</telefone>
+      <CPF>999.999.999-99</CPF>
+      <email>oxcoller@gmail.com</email>
+      <senha>cole1234</senha>
+      <leiloesCadastrados/>
+      <leiloesGanhos/>
+      <leiloesVendidos/>
+    </Utilidades.Usuario>
+    <Utilidades.Usuario>
+      <nome>cael</nome>
+      <sobrenome>dksao</sobrenome>
+      <sexo>F</sexo>
+      <dataDeNascimento>1999-09-18 03:00:00.0 UTC</dataDeNascimento>
+      <endereço>okaoskd</endereço>
+      <telefone>29 9999-9999</telefone>
+      <CPF>999.999.999-99</CPF>
+      <email>oliveiramycaell@gmail.com</email>
+      <senha>abcd1234</senha>
+      <leiloesCadastrados/>
+      <leiloesGanhos/>
+      <leiloesVendidos/>
+    </Utilidades.Usuario>
+  </usuariosCadastrados>
+</Utilidades.CentralDeInformacoes>
